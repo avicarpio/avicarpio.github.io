@@ -1,0 +1,9 @@
+.carousel-inner .item{
+    height:800px;
+    background-size:cover;
+    background-position: center center;
+}   
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    width: 200px;
+}

@@ -21,18 +21,19 @@
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/custom.css">
   </head>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 	  
 	  
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="index.html"><span>À</span>  lex</a>
+	      
 	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
 
-	      <div class="collapse navbar-collapse" id="ftco-nav">
+	      <div class="collapse navbar-collapse col-md-8 mx-auto" id="ftco-nav">
 	        <ul class="navbar-nav nav ml-auto">
 	          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
 	          <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
@@ -241,10 +242,21 @@
 					    		<span class="flaticon-ideas"></span>
 					    	</div>
 					    	<div class="text pl-3">
-		    					<span class="date">2019-2020</span>
+		    					<span class="date">2019-2021</span>
 		    					<h2>Seller</h2>
 		    					<span class="position">Second Company - Terrassa</span>
 		    					<p>Wholesale and retail, specialized in technology, computers and videogames.</p>
+		    				</div>
+	    				</div>
+						<div class="resume-wrap d-flex ftco-animate">
+	    					<div class="icon d-flex align-items-center justify-content-center">
+					    		<span class="flaticon-ideas"></span>
+					    	</div>
+					    	<div class="text pl-3">
+		    					<span class="date">2021-</span>
+		    					<h2>Project Intern</h2>
+		    					<span class="position">Watchity SL</span>
+		    					<p>Developer of an innovative project, live video mixing using video game technology.</p>
 		    				</div>
 	    				</div>
 					  </div>
@@ -279,6 +291,39 @@
         </div>
     		<div class="row">
 					<div class="col-md-4 text-center d-flex ftco-animate">
+						<a href="https://itch.io/dashboard" class="services-1 shadow">
+							<span class="icon">
+								<i class="flaticon-idea"></i>
+							</span>
+							<div class="desc">
+								<h3 class="mb-5">Videogame Development</h3>
+								<p>New creative ways of doing videogames. Also interested on serious games.</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-4 text-center d-flex ftco-animate">
+						<a href="https://github.com/avicarpio" class="services-1 shadow">
+							<span class="icon">
+								<i class="flaticon-innovation"></i>
+							</span>
+							<div class="desc">
+								<h3 class="mb-5">App Developing</h3>
+								<p>Knowledge of C, C++, C#, Java and much more.</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-4 text-center d-flex ftco-animate">
+						<a href="#" class="services-1 shadow">
+							<span class="icon">
+								<i class="flaticon-ideas"></i>
+							</span>
+							<div class="desc">
+								<h3 class="mb-5">Web Developer</h3>
+								<p>Specialized in Backend, PHP, Javascript and Python.</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-4 text-center d-flex ftco-animate">
 						<a href="#" class="services-1 shadow">
 							<span class="icon">
 								<i class="flaticon-analysis"></i>
@@ -303,45 +348,11 @@
 					<div class="col-md-4 text-center d-flex ftco-animate">
 						<a href="#" class="services-1 shadow">
 							<span class="icon">
-								<i class="flaticon-ideas"></i>
-							</span>
-							<div class="desc">
-								<h3 class="mb-5">Web Developer</h3>
-								<p>Specialized in Backend, PHP, Javascript and Python.</p>
-							</div>
-						</a>
-					</div>
-
-					<div class="col-md-4 text-center d-flex ftco-animate">
-						<a href="https://github.com/avicarpio" class="services-1 shadow">
-							<span class="icon">
-								<i class="flaticon-innovation"></i>
-							</span>
-							<div class="desc">
-								<h3 class="mb-5">App Developing</h3>
-								<p>Knowledge of C, C++, C#, Java and much more.</p>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-4 text-center d-flex ftco-animate">
-						<a href="#" class="services-1 shadow">
-							<span class="icon">
 								<i class="flaticon-ux-design"></i>
 							</span>
 							<div class="desc">
 								<h3 class="mb-5">Scrum Master</h3>
 								<p>Experience being a Scrum Master for app development projects.</p>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-4 text-center d-flex ftco-animate">
-						<a href="https://itch.io/dashboard" class="services-1 shadow">
-							<span class="icon">
-								<i class="flaticon-idea"></i>
-							</span>
-							<div class="desc">
-								<h3 class="mb-5">Videogame Development</h3>
-								<p>New creative ways of doing videogames. Also interested on serious games.</p>
 							</div>
 						</a>
 					</div>
@@ -359,10 +370,28 @@
             <p>Nothing is true, everything is permitted.</p>
           </div>
         </div>
-
-			<div class="row no-gutters">
-				<div class="col-md-4">
-					<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-4.png);">
+	
+		<div id="carouselExampleIndicators" class="carousel slide col-md-8 mx-auto" data-ride="carousel" style="width: 50%;">
+			<ol class="carousel-indicators">
+				<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+			</ol>
+			<div class="carousel-inner" role="listbox">
+				<div class="carousel-item active">
+					<div class="project img ftco-animate d-flex justify-content-center align-items-center item" style="background-image: url(images/work-6.png);">
+						<div class="overlay"></div>
+						<div class="text text-center p-4">
+							<h3><a href="https://github.com/avicarpio/Gameboy-Project-Island">GameBoy Studio Game</a></h3>
+							<span>GameBoy Game</span>
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<div class="project img ftco-animate d-flex justify-content-center align-items-center item" style="background-image: url(images/work-4.png);">
 						<div class="overlay"></div>
 						<div class="text text-center p-4">
 							<h3><a href="https://joanlluismudarra.itch.io/niot-now-is-our-time">NIOT (Now Is Our Time)</a></h3>
@@ -370,9 +399,8 @@
 						</div>
 					</div>
 				</div>
-
-				<div class="col-md-4">
-					<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-5.png);">
+				<div class="carousel-item">
+					<div class="project img ftco-animate d-flex justify-content-center align-items-center item" style="background-image: url(images/work-5.png);">
 						<div class="overlay"></div>
 						<div class="text text-center p-4">
 							<h3><a href="https://joanlluismudarra.itch.io/mender">Mender</a></h3>
@@ -380,39 +408,46 @@
 						</div>
 					</div>
 				</div>
+				<div class="carousel-item">
+					<div class="project img ftco-animate d-flex justify-content-center align-items-center item" style="background-image: url(images/work-1.jpg);">
+						<div class="overlay"></div>
+						<div class="text text-center p-4">
+							<h3><a href="https://mallocgames.itch.io/flamingo-mingle">Flamingo Mingle</a></h3>
+							<span>King-Not Only Games Jam</span>
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<div class="project img ftco-animate d-flex justify-content-center align-items-center item" style="background-image: url(images/work-2.jpg);">
+						<div class="overlay"></div>
+						<div class="text text-center p-4">
+							<h3><a href="https://mallocgames.itch.io/hogwarts-unity">Hogwarts Diorama</a></h3>
+							<span>Unity Game Development</span>
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<div class="project img ftco-animate d-flex justify-content-center align-items-center item" style="background-image: url(images/work-3.jpg);">
+						<div class="overlay"></div>
+						<div class="text text-center p-4">
+							<h3><a href="https://www.youtube.com/watch?v=KZvxNbdDhOI">Enemy Dubsmash</a></h3>
+							<span>Class Project</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
 
-    			<div class="col-md-4">
-    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-1.jpg);">
-    					<div class="overlay"></div>
-	    				<div class="text text-center p-4">
-	    					<h3><a href="https://mallocgames.itch.io/flamingo-mingle">Flamingo Mingle</a></h3>
-	    					<span>King-Not Only Games Jam</span>
-	    				</div>
-    				</div>
-  				</div>
-
-  				<div class="col-md-4">
-    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-2.jpg);">
-    					<div class="overlay"></div>
-	    				<div class="text text-center p-4">
-	    					<h3><a href="https://mallocgames.itch.io/hogwarts-unity">Hogwarts Diorama</a></h3>
-	    					<span>Unity Game Development</span>
-	    				</div>
-    				</div>
-  				</div>
-
-    			<div class="col-md-4">
-    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-3.jpg);">
-    					<div class="overlay"></div>
-	    				<div class="text text-center p-4">
-	    					<h3><a href="https://www.youtube.com/watch?v=KZvxNbdDhOI">Enemy Dubsmash</a></h3>
-	    					<span>Class Project</span>
-	    				</div>
-    				</div>
-    			</div>
-    		</div>
-    	</div>
-    </section>
+		<br></br>
+		<br></br>
 
     <section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter">
     	<div class="container-fluid px-md-5">
